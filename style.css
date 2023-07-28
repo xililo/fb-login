@@ -69,7 +69,6 @@ body {
 }
 .last-text a:hover {
     text-decoration: underline;
-    font-size: xx-large;
 }
 .last-text a:visited {
     color: #1877f2;
