@@ -22,7 +22,7 @@ body {
 
 .box {
     background-color: white;
-    width: 30vw;
+    width: 90vw;
     box-shadow: 5px 5px 15px rgba(55, 54, 54, 0.2);
     padding: 25px 20px;
     margin: 5px 15px;
@@ -73,4 +73,9 @@ body {
 }
 .last-text a:visited {
     color: #1877f2;
+}
+@media only screen and (min-width: 768px) {
+    .box {
+        width: 40vw;
+    }
 }
